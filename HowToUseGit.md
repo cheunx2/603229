@@ -46,7 +46,20 @@ vi 에디터 에서 나오고자 할때 ESC :q!
 
 ### 4. Git 최초 설정하기
 
+`.gitignore` 와 `README.md` 파일을 생성한다. 
+
+ 	1. `gitignore`파일은 git이 무시할 내용을 작성
+      	1. `temp.txt` temp 파일 무시
+      	2. `*.zip` 특정 확장자 전체 무시
+      	3. `__temp__/` temp 디렉토리 무시
+      	4. `#` 이후 내용은 주석처리 
+	2. `READ.md`는 프로젝트 소개 및 정리 내용 작성
+
 `git init` .git 폴더 생성(깃 레포지토리 ls -a 로 확인 가능)
+
+*<u>`.git/` 폴더와 `.gitignore`, `README.md`파일이 같은 위치에 있는지 확인</u>*
+
+
 
 `git config --global user.name "본인이름"`
 

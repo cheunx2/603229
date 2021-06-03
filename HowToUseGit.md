@@ -18,6 +18,8 @@ Cmd 에서 git --version 으로 설치 유뮤 확인 가능
 
 방향키 위로 누르면 이전 명령어 뜸
 
+파일명이 directory_name_is_too_long 일 경우 dire 정도만 쓰고 tab 누르면 자동완성 해줌
+
 `pwd`  현재 내가 있는 위치 확인하는 명령어
 
 `ls` 현 디렉토리에 있는 디렉토리, 파일등 확인
@@ -30,7 +32,13 @@ Cmd 에서 git --version 으로 설치 유뮤 확인 가능
 
 `touch temp` temp 파일 생성
 
-*vi 에서 나오고자 할때 ESC :q! 
+`rm 파일이름` 파일 삭제
+
+`rm -r 디렉토리 이름` 디렉토리 삭제 
+
+
+
+vi 에디터 에서 나오고자 할때 ESC :q! 
 
 작성한 내용을 저장하고 종료시 ESC :wq
 
@@ -38,7 +46,7 @@ Cmd 에서 git --version 으로 설치 유뮤 확인 가능
 
 ### 4. Git 최초 설정하기
 
-`git init` .git 폴더 생성(깃 레포지토리)
+`git init` .git 폴더 생성(깃 레포지토리 ls -a 로 확인 가능)
 
 `git config --global user.name "본인이름"`
 
